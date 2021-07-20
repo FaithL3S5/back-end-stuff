@@ -1,6 +1,8 @@
 # back-end-stuff
 back-end for experimenting web development
+
 Language: JavaScript
+
 DB: MongoDB
 
 As specified, an HTTP Server that can store [POST], update [PUT, PATCH], and retrieve [GET] information about the VIPs. Bear in mind I only use postman to check these POST, PUT, and GET methods. Also, I'm still unable to figure out how to store the photo with url. This code will catch any redundancy and inconsistency though.
