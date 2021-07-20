@@ -12,7 +12,7 @@ System must already installs Node Package Manager (NPM).
 5. To start inputing vip data, user must login as an admin first, if it's first time run then user must register an admin account
 6. Navigate to http://localhost:5000/api/user/register via postman (preferably) then input data like this: https://ibb.co/47cVxhj then press send
 7. Now you can login with the email and password specified from registration, navigate to http://localhost:5000/api/user/login then input data like this: https://ibb.co/sPfhM0K to login, the postman will give you a token that you need to copy
-8. On the postman, click the header tab and on KEY input, type in 'auth-token' and paste your copied token in the VALUE input
+8. On the postman, click the header tab and on KEY input, type in 'auth-token' and paste your copied token in the VALUE input, this image might be a good reference: https://ibb.co/WDT68GD
 9. Now user is able to input vip data, navigate to http://localhost:5000/api/user/vip-input to start adding data, the format is like this: https://ibb.co/7j8H2SX
 10. User may also edit vip data with PUT method, to any parameter of the schema
 
